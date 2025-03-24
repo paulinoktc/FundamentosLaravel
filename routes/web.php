@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\AlumnospleController;
 use App\Http\Controllers\ExampleController;
+use App\Http\Controllers\JorgeController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -15,9 +16,11 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
+Route::get('/', JorgeController::class);
+
+/*Route::get('/', function () {
     return view('welcome');
-});
+});*/
 
 //Route::resource('example', ExampleController::class)->names('xample');
 Route::resource('alumnosx', AlumnospleController::class)->names('alumnosx');
