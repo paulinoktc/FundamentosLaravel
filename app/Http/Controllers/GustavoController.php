@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 
 class GustavoController extends Controller
 {
+<<<<<<< HEAD
     /**
      * Display a listing of the resource.
      */
@@ -60,5 +61,10 @@ class GustavoController extends Controller
     public function destroy(string $id)
     {
         //
+=======
+    public function index()
+    {
+        return view('VistasGustavo.prueba');
+>>>>>>> cac0eb37990128614ef45ebc007f377d81b4e22b
     }
 }
