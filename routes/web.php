@@ -24,6 +24,9 @@ Route::get('/', JorgeController::class);
 });*/
 
 //Route::resource('example', ExampleController::class)->names('xample');
+
+Route::resource('Jorge', JorgeController::class)->names('Jorgex');
+
 Route::resource('alumnosx', AlumnospleController::class)->names('alumnosx');
 
 Route::resource('Gustavo', GustavoController::class)->names('Gustavo');
