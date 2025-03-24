@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\AlumnospleController;
+use App\Http\Controllers\GustavoController;
 use App\Http\Controllers\ExampleController;
 use App\Http\Controllers\JorgeController;
 use Illuminate\Support\Facades\Route;
@@ -24,3 +25,5 @@ Route::get('/', JorgeController::class);
 
 //Route::resource('example', ExampleController::class)->names('xample');
 Route::resource('alumnosx', AlumnospleController::class)->names('alumnosx');
+
+Route::resource('Gustavo', GustavoController::class)->names('Gustavo');
