@@ -53,6 +53,6 @@
     <h1 class="page-title">Página Gustavo</h1>
     <img src="https://images.unsplash.com/photo-1504625709867-b4e45e3bb9dd?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGFycXVpdGVjdHVyYSUyMGJydXRhbGlzdGF8ZW58MHx8MHx8fDA%3D" 
          class="hero-image" alt="Imagen de fondo">
-    <a href="alumnosx" class="btn-custom">Ir a la Página</a>
+    <a href="alumnosx" class="btn-custom">Ir a la Página Alumnos</a>
 </div>
 @endsection

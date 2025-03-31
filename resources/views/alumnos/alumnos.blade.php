@@ -53,7 +53,7 @@
     <h1 class="page-title">Página Alumnos</h1>
     <img src="https://itsta.edu.mx/wp-content/uploads/2021/03/WhatsApp-Image-2021-03-04-at-7.49.28-PM.jpeg" 
          class="hero-image" alt="Imagen de fondo">
-    <a href="Gustavo" class="btn-custom">Ir a la Página</a>
+    <a href="Gustavo" class="btn-custom">Ir a la Página Gustavo</a>
 </div>
 
 @endsection
