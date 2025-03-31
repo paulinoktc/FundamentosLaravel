@@ -7,6 +7,7 @@
     <title>{{config('app.name')}}</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="icon" href="https://img.icons8.com/ios-filled/50/a58d6f/place-marker--v1.png" type="image/png">
 </head>
 <body>
 

@@ -17,15 +17,15 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', JorgeController::class);
-
 /*Route::get('/', function () {
     return view('welcome');
 });*/
 
 //Route::resource('example', ExampleController::class)->names('xample');
 
-Route::resource('Jorge', JorgeController::class)->names('Jorgex');
+Route::get('/', [JorgeController::class, 'index'])->name('index');
+Route::get('/info', [JorgeController::class, 'info'])->name('jorge.info');
+
 
 Route::resource('alumnosx', AlumnospleController::class)->names('alumnosx');
 

@@ -5,8 +5,11 @@
 
 <nav  class="navbar navbar-expand-lg navbar-light p-3 " style="background: #FDFAF6;"  id="menu">
     <div class="container">
-        <a class="navbar-brand" href="#">
-            <span class="fs-5 fw-bold" style="color: #706D54">Ejercicio | Vista</span>
+        <a class="navbar-brand" href="{{ route('index') }}" style="text-decoration: none;>
+            <a href="">
+                <span class="fs-5 fw-bold" style="color: #706D54">Ejercicio | Vista</span>
+            </a>
+            
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
